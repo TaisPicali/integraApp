@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>Categorias</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-header color="success">
+      <ion-card-title>Cadastrar</ion-card-title>
+    </ion-card-header>
+
+    <ion-item>
+      <ion-label position="stacked">Digite o Nome</ion-label>
+      <ion-input [(ngModel)]="nome"></ion-input>
+    </ion-item>
+
+    <ion-button expand="full" size="largue" color="danger" (click)="salvar()">SALVAR</ion-button>
+
+  </ion-card>
+
+</ion-content>
